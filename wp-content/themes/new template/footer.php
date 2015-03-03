@@ -1,7 +1,8 @@
 			<div id="footer">
 				<p>
-					Copyright 2007 <a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
+					Copyright <?php echo date("Y"); ?> <a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
 				</p>
+				<p> <?php wp_nav_menu( array('menu' => 'navegation2' )); ?></p>
 			</div>
 
 		</div>
