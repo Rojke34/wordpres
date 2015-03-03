@@ -34,6 +34,8 @@
                     <a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
                </h1>
                
-               <?php bloginfo('description'); ?>
+               <p><?php bloginfo('description'); ?></p>
+
+                <?php wp_nav_menu( $args ); ?> 
 
           </div>
